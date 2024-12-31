@@ -50,3 +50,94 @@ button{
 .header .nav-menu .nav-link:hover{
     color: #000000;
 }
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    gap: 20px; /* Adds spacing between content */
+}
+
+.hero-details {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-greetings {
+    font-size: 18px;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.hero-name {
+    font-size: 48px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.hero-role {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hero-bio {
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.hero-buttons .primary-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.hero-buttons .primary-button {
+    background-color: #ff9800;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.hero-buttons .primary-button:hover {
+    background-color: #e68900;
+}
+
+.hero-buttons .secondary-button {
+    background-color: transparent;
+    border: 2px solid #ff9800;
+    color: #ff9800;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-buttons .secondary-button:hover {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Image Styles */
+.hero-image {
+    flex: 1;
+    display: flex; /* Ensures proper alignment */
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%; /* Makes the image round */
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
