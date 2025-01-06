@@ -64,6 +64,9 @@ button{
     flex: 1;
     max-width: 600px;
 }
+.nav.bar.scrolled{
+    width: 100;
+}
 
 .hero-greetings {
     font-size: 18px;
@@ -206,5 +209,306 @@ button{
         gap: 1rem;
     }
 }
-
+  .about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: hsl(210, 17%, 98%);
+  }
   
+  .section-container {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the image and text */
+  }
+  .about-details {
+    flex: 1; /* Allows the text to take up the remaining space */
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .about-description {
+    font-size: 1rem;
+    color: #666666;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .social-media-links {
+    margin-top: 15px;
+  }
+  
+  .social-media-links a {
+    color: #4CAF50;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-links a:hover {
+    color: #333333;
+  }
+  .section-title{
+    text-align: center;
+    color: hsl(203, 93%, 49%);
+  }
+ /* Services Section */
+.services-section {
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+/* Services Wrapper */
+.services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Service Card */
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Service Icon */
+.service-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+/* Service Title */
+.service-title {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Service Description */
+.service-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+.services-section{
+    background-color: lightcyan;
+}
+/* Testimonials Section */
+.testimonials-section {
+    padding: 4rem 1rem;
+    background-color: #f9f9f9; /* Light gray background */
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+/* Testimonials Wrapper */
+.testimonials-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonial Text */
+.testimonial-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+/* Testimonial Author */
+.testimonial-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Testimonial Role */
+.testimonial-role {
+    font-size: 1rem;
+    color: #777;
+}
+/* Contact Section */
+.contact-section {
+    padding: 4rem 1rem;
+    background-color: #f1f1f1; /* Light gray background */
+    text-align: center;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+/* Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+/* Form Label */
+.form-group label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Form Inputs */
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Textarea */
+textarea.form-input {
+    height: 150px;
+}
+
+/* Submit Button */
+.primary-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
+/* Footer Section */
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text color */
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left Section */
+.footer-left p {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+/* Center Section */
+.footer-center p {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.footer-link {
+    color: #1e90ff; /* Blue color for email link */
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Right Section - Social Media Links */
+.footer-right {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social-link {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social-link:hover {
+    color: #1e90ff;
+}
+html {
+    scroll-behavior: smooth;
+}
