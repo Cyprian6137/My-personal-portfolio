@@ -84,7 +84,7 @@ button{
 }
 
 .hero-bio {
-    color: #555;
+    color: #000000;
     margin-bottom: 20px;
     line-height: 1.8;
 }
@@ -105,14 +105,16 @@ button{
 }
 
 .hero-buttons .primary-button:hover {
-    background-color: #e68900;
+    background-color: #0000ff;
 }
 
 .hero-buttons .secondary-button {
-    background-color: transparent;
+    background-color: #ffffff;
     border: 2px solid #ff9800;
     color: #ff9800;
     transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
 
 .hero-buttons .secondary-button:hover {
@@ -140,4 +142,69 @@ button{
 .profile-image:hover {
     transform: scale(1.05);
 }
+.hero-section .hero-details .hero-buttons{
+    display: flex;
+    gap: 2rem;
+}
+/* Responsive Styles for Tablets and Mobile Devices */
+@media (max-width: 768px) {
+    .header .section-container {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .header .nav-bar .nav-menu {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-details {
+        text-align: center;
+    }
+
+    .hero-name {
+        font-size: 36px;
+    }
+
+    .hero-role {
+        font-size: 20px;
+    }
+
+    .profile-image {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-name {
+        font-size: 28px;
+    }
+
+    .hero-role {
+        font-size: 18px;
+    }
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero-buttons .primary-button,
+    .hero-buttons .secondary-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .hero-section .hero-details .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+  
