@@ -329,7 +329,7 @@ button{
 /* Testimonials Section */
 .testimonials-section {
     padding: 4rem 1rem;
-    background-color: #f9f9f9; /* Light gray background */
+    background-color:  #f9d7c6;; /* Light gray background */
     text-align: center;
 }
 
@@ -436,7 +436,7 @@ button{
 
 /* Textarea */
 textarea.form-input {
-    height: 150px;
+    height: 50px;
 }
 
 /* Submit Button */
@@ -452,7 +452,7 @@ textarea.form-input {
 }
 
 .primary-button:hover {
-    background-color: #0056b3;
+    background-color: orange;
 }
 /* Footer Section */
 .footer {
