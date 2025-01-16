@@ -28,6 +28,7 @@ button{
 .header{
     width: 100%;
     background-color:#000000;
+    position: fixed;
 }
 .header .section-container{
     display: flex;
@@ -324,7 +325,7 @@ button{
     line-height: 1.5;
 }
 .services-section{
-    background-color: lightcyan;
+    background-color: #000000;
 }
 /* Testimonials Section */
 .testimonials-section {
